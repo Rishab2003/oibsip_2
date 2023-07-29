@@ -1,0 +1,66 @@
+body{
+    background-color: bisque;
+    background-image: url(../img/133Z_2106.w026.n002.486B.p1.486.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+
+.card-bg{
+    background-color: rgb(228, 221, 249);
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.buttons {
+    margin: 50px;
+    text-align: center;
+}
+
+.btn-hover {
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px; 
+    -o-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    moz-transition: all .3s ease-in-out;
+   
+    transition: all .3s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-8 {
+    background-image: linear-gradient(to right, #29323b, #4c5764, #2f5a77, #514778);
+    box-shadow: 0 4px 15px 0 rgba(54, 65, 77, 0.75);
+}

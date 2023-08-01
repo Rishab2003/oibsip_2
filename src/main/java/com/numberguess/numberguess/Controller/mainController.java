@@ -23,7 +23,6 @@ public class mainController {
         
         game=new Game();
 
-        //session.setAttribute("game", game);
         System.out.println(game.getSecretNumber());
         return "home";
 
@@ -63,9 +62,8 @@ public class mainController {
             model.addAttribute("score", "You ran out of chances.    The secret number is "+g.getSecretNumber());
             return "score";
         }
-        System.out.println("Guesss"+g.getGuessNumber());
-        System.out.println(g.getSecretNumber()+"secret");
-        System.out.println(g.getAttempts()+"attempts");
+        
+        System.out.println(g.getSecretNumber()+" secret");
         
         model.addAttribute("game",g);
         model.addAttribute("msg",ar);

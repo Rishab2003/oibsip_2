@@ -50,7 +50,7 @@ public class mainController {
         if(ar=="You won"){
             String won[] =   {"Hooray !! you have found the Secret number "+g.getSecretNumber(),
                             "An Absolute Masterclass. The secret number is "+g.getSecretNumber(),
-                            "You have found the secret number "+g.getSecretNumber()+". Wanna Play again??"};
+                            "You won!!! The secret number was "+g.getSecretNumber()+". Wanna Play again??"};
             Random random=new Random();
             model.addAttribute("score", won[random.nextInt(won.length)]);
             return "score";
